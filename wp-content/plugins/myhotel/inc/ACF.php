@@ -32,7 +32,7 @@ class ACF
 
         $field_group->add_rule_group( $rule_group );
         
-        $text_field = new Select("Prix de la nuit", 'price', 'price');
+        $text_field = new Number("Prix de la nuit", 'price', 'price');
         $field_group->add_field($text_field);
 
         $area_field = new Select("Nombre de couchages", 'capacity', 'capacity');

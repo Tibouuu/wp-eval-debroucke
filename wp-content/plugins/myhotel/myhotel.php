@@ -16,7 +16,7 @@ require_once 'inc/PostType.php';
 require_once 'inc/Taxonomies.php';
 require_once 'inc/Filters.php';
 require_once 'inc/ACF.php';
-require_once __DIR__ . '/../acf-codifier/vendor/autoload.php';
+require_once __DIR__ . '/../acf-codifier-1.39.1/vendor/autoload.php';
 
 class Hotel
 {
